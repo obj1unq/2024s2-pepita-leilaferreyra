@@ -32,7 +32,6 @@ Ejemplos:
 - Si tiene a pepita con energía de 100 y recibe el mensaje alimentar(alpiste) pepita queda con 120 de energía.
 
 ### Cenas
-
 Entiende el mensaje *cenas* sin parámetros, el cual devuelve la cantidad de veces que roque dio de alimentar a su ave
 Desde que la está entrenando. (pensar como hacer para recordar este dato)
 Por ejemplo:
