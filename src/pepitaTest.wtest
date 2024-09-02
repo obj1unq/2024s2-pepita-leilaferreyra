@@ -1,0 +1,21 @@
+import pepita.*
+import comidas.*
+
+describe "Tests de Pepita" {
+
+
+	test "Al comer pepita aumenta su energia" {
+		const manzana = new Manzana()
+		pepita.comer(manzana)
+		assert.equals(105, pepita.energia())
+	}
+
+	test "Al volar pepita pierde energia" {
+		pepita.volar(1)
+		assert.equals(89, pepita.energia())
+	}
+
+	//TODO cuando cambia la posición de pepita, cambia la de silvestre
+
+}
+
